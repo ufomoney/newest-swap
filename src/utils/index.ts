@@ -39,7 +39,7 @@ export function getEtherscanLink(chainId: ChainId, data: string, type: 'transact
       return `${prefix}/tx/${data}`
     }
     case 'token': {
-      return `${prefix}/tokens/${data}`
+      return `${prefix}/token/${data}`
     }
     case 'address':
     default: {

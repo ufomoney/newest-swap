@@ -175,7 +175,7 @@ const ListRow = memo(function ListRow({ listUrl, onBack }: { listUrl: string; on
 					<PopoverContainer show={true} ref={setPopperElement as any} style={styles.popper} {...attributes.popper}>
 						<div>{list && listVersionLabel(list.version)}</div>
 						<SeparatorDark />
-						<ExternalLink href={`https://tokenlists.1hive.org/token-list?url=${listUrl}`}>View list</ExternalLink>
+						<ExternalLink href={`https://tokenlists.org/token-list?url=${listUrl}`}>View list</ExternalLink>
 						<UnpaddedLinkStyledButton onClick={handleRemoveList} disabled={Object.keys(listsByUrl).length === 1}>
 							Remove list
 						</UnpaddedLinkStyledButton>
@@ -341,7 +341,7 @@ export function ListSelect({ onDismiss, onBack }: { onDismiss: () => void; onBac
 			<Separator />
 
 			<div style={{ padding: '16px', textAlign: 'center' }}>
-				<ExternalLink href="https://tokenlists.1hive.org">Browse lists</ExternalLink>
+				<ExternalLink href="https://tokenlists.org">Browse lists</ExternalLink>
 			</div>
 		</Column>
 	)
