@@ -1,7 +1,7 @@
 import { Token } from 'uniswap-bsc-sdk'
 
 export async function addTokenToMetamask(ethereum: any, token: Token) {
-  const IMAGE_URL = 'https://pandaswap.xyz/static/media/pnda-logo.afd82c21.png'
+  const IMAGE_URL = 'https://farms.pandaswap.xyz/pnda.png'
   try {
     await ethereum.request({
       method: 'wallet_watchAsset',
