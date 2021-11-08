@@ -22,6 +22,8 @@ import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redir
 import Swap from './Swap'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
 
+import immunefi from '../assets/images/immunefi.png'
+
 const AppWrapper = styled.div`
 	display: flex;
 	flex-flow: column;
@@ -88,6 +90,9 @@ export default function App() {
 								<Route component={RedirectPathToSwapOnly} />
 							</Switch>
 						</Web3ReactManager>
+						<a href="https://www.immunefi.com/bounty/baofinance" target="_blank" rel="noreferrer">
+							<img src={immunefi} height="100px" />
+						</a>
 						<Marginer />
 					</BodyWrapper>
 				</AppWrapper>
