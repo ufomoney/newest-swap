@@ -60,6 +60,8 @@ const Marginer = styled.div`
 	margin-top: 5rem;
 `
 
+console.log('Testing Staging')
+
 export default function App() {
 	return (
 		<Suspense fallback={null}>
