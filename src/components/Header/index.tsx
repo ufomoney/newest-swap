@@ -184,7 +184,7 @@ export default function Header() {
 	return (
 		<HeaderFrame>
 			<RowBetween style={{ alignItems: 'flex-start' }} padding="1rem 1rem 0 1rem">
-				<HeaderElement>
+				{/* <HeaderElement>
 					<Title href=".">
 						<PandaIcon>
 							<img src={Logo} alt="logo" height="50px" width="59px" />
@@ -194,12 +194,12 @@ export default function Header() {
 							<TitleSubText>by Bao.Finance</TitleSubText>
 						</TitleText>
 					</Title>
-				</HeaderElement>
+				</HeaderElement> */}
 				<HeaderControls>
 					<HeaderElement>
-						<TestnetWrapper>
+						{/* <TestnetWrapper>
 							{!isMobile && chainId && NETWORK_LABELS[chainId] && <NetworkCard>{NETWORK_LABELS[chainId]}</NetworkCard>}
-						</TestnetWrapper>
+						</TestnetWrapper> */}
 						<AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
 							{account && userEthBalance ? (
 								<BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
