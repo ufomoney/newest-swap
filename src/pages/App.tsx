@@ -92,10 +92,10 @@ export default function App() {
 								<Route component={RedirectPathToSwapOnly} />
 							</Switch>
 						</Web3ReactManager>
-						<a href="https://www.immunefi.com/bounty/baofinance" target="_blank" rel="noreferrer">
+						{/* <a href="https://www.immunefi.com/bounty/baofinance" target="_blank" rel="noreferrer">
 							<img src={immunefi} height="100px" />
 						</a>
-						<Marginer />
+						<Marginer /> */}
 					</BodyWrapper>
 				</AppWrapper>
 			</HashRouter>
