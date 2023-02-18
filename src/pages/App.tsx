@@ -22,7 +22,7 @@ import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redir
 import Swap from './Swap'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
 
-import immunefi from '../assets/images/immunefi.png'
+// import immunefi from '../assets/images/immunefi.png'
 
 const AppWrapper = styled.div`
 	display: flex;
